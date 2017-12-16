@@ -14,6 +14,8 @@ const getWord =
 const nameify =
   first => last => `${last}, ${first}`
 
+const joinWords = add
+
 const inc =
   add(1)
 
@@ -23,5 +25,6 @@ module.exports = {
   getWord,
   nameify,
   multiply,
+  joinWords,
   pluralize
 }
